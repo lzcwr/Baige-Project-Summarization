@@ -1,0 +1,231 @@
+% -*- coding: utf-8 -*-
+\documentclass[nocover]{lizhechen}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{niceframe}
+\usepackage{swrule}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{diagbox}
+\usepackage{listings}
+\usepackage{ubuntu}
+\usepackage{fancyhdr} %页眉设置
+
+\usepackage{wallpaper} %使用wallpaper宏包
+\CenterWallPaper{0.7}{baige.jpg}
+
+\lstset{ %  
+	extendedchars=false,            % Shutdown no-ASCII compatible  
+	language=C++,                % choose the language of the code  
+	%basicstyle=\normalsize\tt,    % the size of the fonts that are used for the code  
+	basicstyle=\small\fontUbuntuMono,
+	%tabsize=3,                            % sets default tabsize to 3 spaces  
+	%numbers=left,                   % where to put the line-numbers  
+	%numberstyle=\small,              % the size of the fonts that are used for the line-numbers  
+	%stepnumber=1,                   % the step between two line-numbers. If it's 1 each line  
+	% will be numbered  
+	%numbersep=5pt,                  % how far the line-numbers are from the code   %  
+	%keywordstyle=\color[rgb]{0,0,1},                % keywords  
+	%commentstyle=\color[rgb]{0.133,0.545,0.133},    % comments  
+	%stringstyle=\color[rgb]{0.627,0.126,0.941},      % strings  
+	%backgroundcolor=\color{white}, % choose the background color. You must add \usepackage{color}  
+	showspaces=false,               % show spaces adding particular underscores  
+	showstringspaces=false,         % underline spaces within strings  
+	showtabs=false,                 % show tabs within strings adding particular underscores  
+	%frame=single,                 % adds a frame around the code  
+	%captionpos=b,                   % sets the caption-position to bottom  
+	breaklines=true,                % sets automatic line breaking  
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace  
+	%title=\lstname,                 % show the filename of files included with \lstinputlisting;  
+	% also try caption instead of title  
+	mathescape=true,escapechar=?    % escape to latex with ?..?  
+	escapeinside={\%*}{*)},         % if you want to add a comment within your code  
+	%columns=fixed,                  % nice spacing  
+	%morestring=[m]',                % strings  
+	%morekeywords={%,...},%          % if you want to add more keywords to the set  
+	%    break,case,catch,continue,elseif,else,end,for,function,global,%  
+	%    if,otherwise,persistent,return,switch,try,while,...},%  
+}
+
+
+\begin{document}
+	\chead{\includegraphics[scale=0.03]{logo.png}\ 北京师范大学白鸽青年志愿者协会 -- 项目总结报告}
+	
+	\begin{center}
+		\ 
+		\\[20ex]
+		{\heiti\huge \textbf{北京师范大学白鸽青年志愿者协会}}\\[3ex]
+		{\heiti\huge \textbf{2016~年秋季学期常规志愿服务项目}}\\[3ex]
+		{\heiti\huge \textbf{期末总结报告}}
+		\\[70ex]
+		\begin{table}[H]
+			\begin{center}
+				\begin{tabular}{ccc}
+					{\Large \textbf{项目名称：}} & & {\Large 图书馆项目} \\
+					 &  & \\
+					{\Large \textbf{报告时间：}} & & {\Large 2016.12.11} \\
+					 &  & \\
+					{\Large \textbf{编写成员：}} & & {\Large 李喆琛、宋研霏} \\
+				\end{tabular}
+			\end{center}
+		\end{table}
+		%{\UbuntuMono\Large \textbf{项目名称：}\ \ \ \ \ \ \ \ \ \ 图\ 书\ 馆\ 项\ 目 }\\[2ex]
+		%{\UbuntuMono\Large \textbf{报告时间：}\ \ \ \ \ \ \ \ \ \ 2016.12.11}\\[2ex]
+		%{\UbuntuMono\Large \textbf{编写成员：}\ \ \ \ \ \ \ \ \ \ \ \ \ \ 李\ 喆\ 琛\ \ \ \ }
+	\end{center}
+	
+	\section{项目基本信息}
+	\subsection{项目基本信息}
+	
+	\begin{table}[H]
+		\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			单位名称 & 校园服务中心 & 项目名称 &  图书馆项目 \\
+			\hline
+			项目成立时间 & 2012年 & 项目实施地点 & 北京师范大学图书馆 \\
+			\hline
+			项目负责人 & 李喆琛 & 年级 & 2015级 \\
+			\hline
+			联系电话 & 17888802353 & 电子邮箱 & 201411213015@mail.bnu.edu.cn \\
+			\hline
+		\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\subsection{团队基本信息}
+	
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				岗位 & 姓名 & 年级 & 联系电话 & 电子邮箱 & 主要分工\\
+				\hline
+				项目第二负责人 & 无 & \ & \ & \ & \ \\
+				\hline
+				项目财务负责人 & 无 & \ & \ & \ & \ \\
+				\hline
+				项目宣传负责人 & 无 & \ & \ & \ & \ \\
+				\hline
+				
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\subsection{合作方面基本信息}
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline
+				姓名 & 所属单位 & 职务 & 邮箱 & 电话 & 提供支持类型 \\
+				\hline
+				李永明 & 图书馆 & 分党委副书记 & liym@lib.bnu.edu.cn & 13522761697 & 志愿工作和场所安排 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\section{项目实施}
+	\subsection{项目开展活动详细描述}
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|}
+				\hline
+				时间 & 地点 & 活动名称 & 实施内容和步骤 & 参与人 \\
+				\hline
+				\multirow{6}{2cm}{$2016.9.19$} &  &  & 由图书馆分党委副书记李永 & \\
+									& &  & 明老师为各位志愿者进行志 & \\
+									& 图书馆 & 岗前 & 愿服务内容及要求的讲解;  & 图书馆全体 \\
+									& 会议室 & 培训 & 项目负责人进行补充并介绍 & \\
+									& &      & 白鸽概况以及志愿北京概况 & \\
+									& & & &\\
+				\hline
+				\multirow{8}{2cm}{$2016.9.21$} &  &  & 主任首先介绍了白鸽概况； & \\
+						 &  &  & 接下来校服各项目负责人自 & \\
+						 & &   & 我介绍并讲述项目历史及概 & \\
+						 & 教二 &    校服   & 况；大会中间，认证考评部 & 图书馆全体 \\
+						 & 教室 &   全员    & 部长吴双讲解志愿北京注册 & \\
+						 & &    大会   & 流程；大会末尾，踏鸽行项 & \\
+						 & &       & 目进行了舞蹈串烧节目表演 & \\
+						 & &       & 最后合影留念。 & \\
+				\hline
+				\multirow{2}{2cm}{$2016.10.19$} & 教二 & 图书馆 & 军训过后再次向志愿者 & 项目负责人、 \\
+						 & 教室 & 例会 & 强调志愿服务内容要点 & 2016级全体\\
+				\hline
+				\multirow{2}{2cm}{$2016.10.17$} & 图书馆 & 试服务 & 2016级志愿者第一周上岗 & 图书馆全体志愿者 \\
+							$\sim2016.10.23$ & & & &\\
+				\hline
+				\multirow{3}{2cm}{$2016.10.24$} & 教二 & 图书馆 & 由校园服务中心主任团对报 & 图书馆学干 \\
+							& 教室 & 学干 & 名图书馆学干的2016级志愿 & 项目负责人\\
+							& &面试  & 者进行筛选和面试 & \\
+				\hline
+				\multirow{2}{2cm}{$2016.12.3$} & 邱季端 & 公益月 & 和踏鸽行共办“书山有路鸽 & 图书馆外场 \\
+							& 西侧 & 外场 & 为径”活动 & 人员 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\subsection{项目取得的主要成果}
+	\begin{itemize}
+		\item 图书馆新增岗位“报刊管理助理岗位”；
+		\item 读者服务岗的服务质量显著提高；
+		\item 稳定运作。
+	\end{itemize}
+	
+	\section{项目荣誉情况}
+	\par 本学期项目获得的校内（包括白鸽）、校外奖项
+	\begin{table}[H]
+		\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			奖项属性 & 奖项全名 \\
+			\hline
+			无 & 无 \\
+			\hline
+		\end{tabular}
+		\end{center}
+	\end{table}
+	
+	\section{财务报告}
+	无
+	
+	\section{项目反馈评价}
+	
+	\subsection{项目成员评价}
+	\begin{itemize}
+		\item 项目优点
+		\begin{enumerate}
+			\item 工作环境安逸；
+			\item 志愿服务时间和出勤情况可以较好地保证；
+			\item 志愿者工作热情较高；
+			\item 工作安排明确，工作中遇到的问题可以及时得到反映；
+			\item 志愿者和项目负责人以及志愿者之间的沟通较好。
+		\end{enumerate}
+		
+		\item 项目缺点
+		\begin{enumerate}
+			\item 项目知名度不够高；
+			\item 一些意见和反馈虽然能够及时反映，但是不能得到及时解决；
+			
+		\end{enumerate}
+		
+		\item 项目改进方案
+		\begin{enumerate}
+			\item 在适当的时候举办活动，提高项目在校园中的知名度；
+			\item 多做几篇推送，由白鸽公众号推送，提高项目的知名度；
+			\item 加强志愿者和老师的沟通，提高解决问题的效率。
+		\end{enumerate}
+		
+	\end{itemize}
+	
+	\subsection{项目主管单位评价}
+	\par \ 
+	\\[17ex]
+	
+	\subsection{会长团评价}
+	\par \ 
+	\\[20ex]
+		
+\end{document}
